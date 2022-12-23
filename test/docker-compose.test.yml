@@ -1,0 +1,9 @@
+version: "2"
+
+services:
+  php-app:
+    image: ${DOCKER_REGISTRY}/${DOCKER_REGISTRY_USER}/${DOCKER_REGISTRY_IMAGE}:${DOCKER_REGISTRY_IMAGE_TAG}
+    expose:
+      - "9000"
+    volumes:
+      - ".:/app"
