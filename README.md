@@ -21,7 +21,7 @@ Custom from original `asapdotid/php`:
 | --------------- | ------------ | ------------------------------------------------- |
 | APPLICATION_UID | 1000         | PHP-FPM UID (Effective user ID)                   |
 | APPLICATION_GID | 1000         | PHP-FPM GID (Effective group ID)                  |
-| TIMEZONE        | Asia/Jakarta | Timezone for OS and PHP                           |
+| TIMEZONE        | Asia/Jakarta | Timezone for OS and PHP config                    |
 | APP_ENV         | develpment   | For build `development` or `production`           |
 | SKIP_COMPOSER   | 0            | Support for composer install in application mount |
 

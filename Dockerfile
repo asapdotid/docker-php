@@ -7,6 +7,9 @@ ENV APPLICATION_PATH=/app \
 ENV TIMEZONE=Asia/Jakarta
 ENV PHP_DATE_TIMEZONE=$TIMEZONE
 ENV APP_ENV=production
+ENV SKIP_COMPOSER=""
+
+COPY ./.docker/config/ /opt/docker/
 
 RUN set -x \
     && apk-install \
